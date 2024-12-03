@@ -45,6 +45,7 @@ button {
 
 button:hover {
     background-color: rgb(217, 5, 5);
+    box-shadow: 0px 2px 1px black;
 }
 
 p {

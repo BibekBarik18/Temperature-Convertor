@@ -4,7 +4,7 @@ let toCelcius=document.getElementById("tocelcius");
 let result=document.getElementById("result");
 let temp;
 
-function convert(){
+convert=() => {
 if(toFahrenheit.checked)
 {
     temp=Number(display.value);
@@ -24,7 +24,7 @@ else
 changeBackgroundColor(temp);
 }
 
-function changeBackgroundColor(temperature) {
+changeBackgroundColor=(temperature) =>{
     let body = document.body;
 
     if (temperature < 32) {
